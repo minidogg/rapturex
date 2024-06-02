@@ -2,7 +2,7 @@ const corsProxy = "https://corsproxy.io/?"
 let requestCache = {}
 
 //get repo from url
-const urlToRepo = (url)=>repo = /^https:\/\/github\.com\/([\w-]+\/[A-Za-z0-9_.-]+)$/.exec(url)[1]
+const urlToRepo = (url)=>repo = /^https:\/\/github\.com\/([\w-]+\/[A-Za-z0-9_.-]+)\/?/.exec(url)[1]
 
 //get latest commit to github repo
 async function getCommitSha(url,repo){
