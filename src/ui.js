@@ -1,7 +1,3 @@
-let defaultCss = ""
-async function getDefaultCss(){
-    if(defaultCss!="")return defaultCss
-}
 
 //elements
 const urlForm = q("#urlForm");
