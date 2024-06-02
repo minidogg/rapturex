@@ -7,7 +7,6 @@ async function getDefaultCss(){
 const urlForm = q("#urlForm");
 const urlEl = q("#url");
 const tabsEl = q("#tabs");
-const pagesEl = q("#pages");
 
 //variables
 let tabs = [];
@@ -45,3 +44,9 @@ async function addTab(url="dingle.it"){
     selectTab(tabs.length-1)
 }
 addTab()
+
+//change url
+urlForm.onsubmit = (ev)=>{
+    ev.preventDefault()
+
+}

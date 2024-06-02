@@ -1,15 +1,64 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-}
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+    gap: 10;
+    background-color: transparent;
+    direction: column;
+    align-items: fill;
     background-color: #242424;
 }
+h1 {
+    font-size: 24pt;
+}
 
-input[type="text"]{
+h2 {
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+h5 {
+    font-size: 16pt;
+}
+
+h6 {
+    font-size: 14pt;
+}
+
+a {
+    border: none;
+    color: #67B7D1;
+    text-decoration: underline;
+}
+
+input {
+    padding: 5px;
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+
+}
+
+textarea {
+    padding: 5px;
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+
+    width: 400px;
+    height: 100px;
+}
+
+
+/* custom browser css */
+/* input[type="text"]{
     all:unset;
 
     background-color:rgba(0,0,0,0.5);
@@ -17,4 +66,7 @@ input[type="text"]{
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
+} */
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
